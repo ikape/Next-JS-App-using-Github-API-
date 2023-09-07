@@ -1,6 +1,6 @@
-// export const metadata = {
-//   title: "About Ikape Isaac"
-// };
+export const metadata = {
+  title: "About Ikape Isaac Repos"
+};
 
 const AboutPage = () => {
   return (

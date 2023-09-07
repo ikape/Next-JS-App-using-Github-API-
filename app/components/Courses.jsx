@@ -9,8 +9,6 @@ import Link from "next/link";
 const Courses = ({courses}) => {
   // const courses = await fetchCourses();
 
-
-
   return (
     <div className='courses'>
       {courses.map((course) => (

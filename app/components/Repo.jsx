@@ -3,7 +3,8 @@
 import { FaStar, FaCodeBranch, FaEye } from "react-icons/fa";
 
 async function fetchRepo(name) {
-  const response = await fetch(`https://api.github.com/repos/ikape/${name}`, {
+  const response = await fetch(`https://api.github.com/repos/ikape/${name}`,
+    {
     next: {
       revalidate: 60
     }

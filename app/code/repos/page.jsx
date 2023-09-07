@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaStar, FacodeBranch, FaEye, FaCodeBranch } from "react-icons/fa";
+import { FaStar, FaEye, FaCodeBranch } from "react-icons/fa";
 
 async function fetchRepos() {
   const response = await fetch("https://api.github.com/users/ikape/repos",
