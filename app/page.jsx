@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <>
-      <h1>Welcome isaac</h1>
+      <h1>Welcome Isaac</h1>
       <CourseSearch getSearchResults={(results) => setCourses(results)} />
       <Courses courses={courses} />
     </>

@@ -2,15 +2,13 @@ import Link from "next/link";
 import { FaStar, FaEye, FaCodeBranch } from "react-icons/fa";
 
 async function fetchRepos() {
-  const response = await fetch("https://api.github.com/users/ikape/repos",
-    {
+  const response = await fetch("https://api.github.com/users/ikape/repos", {
     next: {
       revalidate: 60
     }
-    }
-  );
+  });
 
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
 
   const repos = await response.json();
   return repos;

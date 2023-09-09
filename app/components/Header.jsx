@@ -1,5 +1,6 @@
 import Link from "next/link";
-const header = () => {
+
+const Header = () => {
   return (
     <header className='header'>
       <div className='container'>
@@ -8,7 +9,7 @@ const header = () => {
         </div>
         <div className='links'>
           <Link href='/about'>About</Link>
-          <Link href='/about/team'>our Team</Link>
+          <Link href='/about/team'>My Team</Link>
           <Link href='/code/repos'>Code</Link>
         </div>
       </div>
@@ -16,4 +17,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

@@ -22,7 +22,6 @@ const CourseSearch = ({ getSearchResults }) => {
       />
 
       <button className='search-button' type='submit'>
-        {" "}
         Search
       </button>
     </form>
