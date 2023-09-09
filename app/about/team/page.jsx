@@ -4,7 +4,7 @@ const TeamPage = () => {
   return (
       <div>
           <h1>Team isaac</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, nisi?</p>
+          <p>I'm seeking for good opportunities and colloborations...</p>
     </div>
   )
 }
